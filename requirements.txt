@@ -1,0 +1,5 @@
+dnslib==0.9.7
+peewee==2.10.1
+PyMySQL==0.7.11
+redis==2.10.5
+python3-memcached==1.51

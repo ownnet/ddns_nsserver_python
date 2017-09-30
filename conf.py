@@ -1,0 +1,25 @@
+TTL = 30
+PORT = 53
+
+#Database:0:mysql,1:sqlite
+DB_TYPE = 1
+
+#MYSQL
+MYSQL_HOST = 'localhost'
+MYSQL_DBNAME = ''
+MYSQL_USERNAME = ''
+MYSQL_PASSWORD = ''
+
+#SQLITE
+SQL_PATH = 'main.db'
+
+#CACHE:0:disable;1:memcachede;2,redis;3:self-mem-cache
+CACHE_TYPE=0
+#REDIS
+REDIS_HOST = '192.168.10.10'
+REDIS_PORT = 6379
+REDIS_DB_NUM = 0
+REDIS_PASSWORD = None
+#MEMCACHED
+MEMCACHED_HOST = '192.168.10.10'
+MEMCACHED_PORT = 11211
